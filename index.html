@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <title>Fart Pride</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+  <header class="header">
+    <h1 id="title" class="text-center">Fart much?</h1>
+    <p id="description" class="description text-center">
+      We all do it, now is the time to ask yourself should this be celebrated with pride as a biological gift? or something to be ashamed of like our backwards ancestors
+    </p>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </header>
+  <form id="survey-form">
+
+    <body>
+      <div class="name-label">
+        <label id="name-label" for="name"> Name </label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+      </div>
+      <div class="form-group">
+        <p>What kinda farter are you?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Pick a style</option>
+          <option value="student">gas student</option>
+          <option value="job">i get paid for fumes production</option>
+          <option value="learner">i am getting a PHD in clouds</option>
+          <option value="preferNo">my gas is private</option>
+          <option value="other">Im a lady i queef</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>Would you recomend farting to a friend?</p>
+        <label>
+          <input name="user-recommend" value="Yes loud and proud" type="radio" class="input-radio" checked />Yes loud and proud</label>
+        <label>
+          <input name="user-recommend" value="Maybe-a-quiet-one" type="radio" class="input-radio" />Maybe a quiet one</label>
+        <label>
+          <input name="user-recommend" value="Not-sure-only-silent-bombs" type="radio" class="input-radio" />Not sure only silent bombs</label>
+      </div>
+
+      <div class="form-group">
+        <p>
+          What is your fav style of fart?
+        </p>
+        <select id="most-like" name="most-like" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="silent+violent">Silent & violent</option>
+          <option value="QueefsCauseImALady">Queefs cause im a lady</option>
+          <option value="LoudStickers">Loud stickers</option>
+          <option value="OnlyAudio">Only audio</option>
+          <option value="ImNotHuman">Im not human</option>
+        </select>
+      </div>
+
+      <div class=="form-group">
+        <p>
+          What form would you like to see improved?
+          <span class="clue">(check all that apply)</span>
+        </p>
+        <label>
+          <input name="prefer" value="squeekers" type="checkbox" class="input-checkbox" />Squeekers</label>
+        <label>
+          <input name="prefer" value="trombones" type="checkbox" class="input-checkbox" />Trombones</label>
+        <label>
+          <input name="prefer" value="silentAndDeadly" type="checkbox" class="input-checkbox" />Silent and deadly</label>
+        <label>
+          <input name="prefer" value="wetAndSticky" type="checkbox" class="input-checkbox" />Wet and sticky</label>
+        <label>
+          <input name="prefer" value="accidentalPoop" type="checkbox" class="input-checkbox" />Accidental poop</label>
+        <label>
+          <input name="prefer" value="fartThatSeepsOutWithoutYouKnowing" type="checkbox" class="input-checkbox" />Fart that seeps out without you knowing</label>
+        <label>
+          <input name="prefer" value="MachineGun" type="checkbox" class="input-checkbox" />Machine gun</label>
+        <label>
+          <input name="prefer" value="analLipsBurner" type="checkbox" class="input-checkbox" />Anal lips burner</label>
+        <label>
+          <input name="prefer" value="pip" type="checkbox" class="input-checkbox" />Pip</label>
+      </div>
+      <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+      <div class="form-group">
+        <p>Can you give any advise on my next cloud creation?</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your cloud idea here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit
+        </button>
+      </div>
+    </body>
+  </form>
